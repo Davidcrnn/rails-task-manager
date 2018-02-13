@@ -1,0 +1,10 @@
+<h1>Show me</h1>
+
+<ul>
+  <li>
+    <%= @task.details %>
+  </li>
+</ul>
+
+<p> <%= link_to "Back to the list", "/tasks" %> </p>
+ <p> <%= link_to "Edit a task", edit_task_path(@task) %></p>
